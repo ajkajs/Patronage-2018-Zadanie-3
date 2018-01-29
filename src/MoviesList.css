@@ -1,0 +1,23 @@
+.heading {
+	text-align: center;
+	margin: 10px 0 40px 0;
+}
+#moviesListContainer {
+	margin-top: 100px;
+}
+#moviesList {
+    width: 800px;
+    margin: auto;
+}
+ul {
+	list-style-type: none;
+}
+#moviesList li {
+	padding: 30px;
+	margin-top: 20px;
+	box-shadow: 10px 11px 15px #808080;
+	background-color: #fff;
+}
+#moviesList li:hover {
+	text-decoration: underline;
+}

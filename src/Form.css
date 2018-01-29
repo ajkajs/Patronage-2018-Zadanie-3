@@ -1,0 +1,75 @@
+form {
+	width: 650px;
+	height: 400px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+form .row .summary {
+	border: 1px solid #000;
+}
+label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	padding:0 16px 0 0;
+}
+
+input {
+	font-size: 15px;
+	border: 1px solid #000;
+}
+#title {
+	width: 513px;
+}
+
+#summary {
+	width: 513px;
+	height: 100px;
+	font-size: 15px;
+}
+
+#genre, #year {
+	width: 190px;
+}
+
+.add {
+	cursor: pointer;
+	font-size: medium;	
+}.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.container input {
+	margin:0 15px 0 0;
+}
+
+.row {
+	margin:10px 0;
+
+}
+
+.row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.radioLabel {
+	float: left;
+	margin: 10px 0 10px 53px;
+}
+
+.withRadios label {
+	width: 68px;
+	margin: 10px 0;
+}
+
+.withSubmit {
+	margin: 0 20px 0 0;
+	float: right;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
